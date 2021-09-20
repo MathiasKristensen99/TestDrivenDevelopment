@@ -18,7 +18,7 @@ namespace EASV.TestDrivenDevelopment.Exercise_2_Test
         }
 
         [Test]
-        public void Test1()
+        public void Cloudburst()
         {
             double[] cloudburst = new double[] {2, 4, 6};
             
@@ -26,7 +26,7 @@ namespace EASV.TestDrivenDevelopment.Exercise_2_Test
         }
 
         [Test]
-        public void Test2()
+        public void NoCloudburst()
         {
             double[] cloudbursts = new double[] {2, 4};
             
