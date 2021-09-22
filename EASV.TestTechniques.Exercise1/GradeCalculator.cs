@@ -22,8 +22,26 @@
                 grade = 2;
                 return grade;
             }
-            
-            return -1;
+
+            if (percentage >= 60 && percentage <= 79)
+            {
+                grade = 4;
+                return grade;
+            }
+
+            if (percentage >= 80 && percentage <= 84)
+            {
+                grade = 7;
+                return grade;
+            }
+
+            if (percentage >= 85 && percentage <= 94)
+            {
+                grade = 10;
+                return grade;
+            }
+
+            return 12;
         }
     }
 }
