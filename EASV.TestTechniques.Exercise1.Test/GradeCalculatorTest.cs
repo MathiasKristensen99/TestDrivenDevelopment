@@ -22,7 +22,7 @@ namespace EASV.TestTechniques.Exercise1.Test
         [TestCase(5)]
         public void GradeIsMinusThree(int n)
         {
-            Assert.AreEqual(_gradeCalculator.ToGrade(n), -3);
+            Assert.AreEqual(-3, _gradeCalculator.ToGrade(n));
         }
 
         [Test]
@@ -31,7 +31,7 @@ namespace EASV.TestTechniques.Exercise1.Test
         [TestCase(49)]
         public void GradeIsZero(int n)
         {
-            Assert.AreEqual(_gradeCalculator.ToGrade(n), 0);
+            Assert.AreEqual(0, _gradeCalculator.ToGrade(n));
         }
 
         [Test]
@@ -40,7 +40,7 @@ namespace EASV.TestTechniques.Exercise1.Test
         [TestCase(59)]
         public void GradeIsTwo(int n)
         {
-            Assert.AreEqual(_gradeCalculator.ToGrade(n), 2);
+            Assert.AreEqual(2, _gradeCalculator.ToGrade(n));
         }
 
         [Test]
@@ -49,7 +49,7 @@ namespace EASV.TestTechniques.Exercise1.Test
         [TestCase(79)]
         public void GradeIsFour(int n)
         {
-            Assert.AreEqual(_gradeCalculator.ToGrade(n), 4);
+            Assert.AreEqual(4, _gradeCalculator.ToGrade(n));
         }
 
         [Test]
@@ -58,7 +58,7 @@ namespace EASV.TestTechniques.Exercise1.Test
         [TestCase(84)]
         public void GradeIsSeven(int n)
         {
-            Assert.AreEqual(_gradeCalculator.ToGrade(n), 7);
+            Assert.AreEqual(7, _gradeCalculator.ToGrade(n));
         }
 
         [Test]
@@ -67,14 +67,14 @@ namespace EASV.TestTechniques.Exercise1.Test
         [TestCase(94)]
         public void GradeIsTen(int n)
         {
-            Assert.AreEqual(_gradeCalculator.ToGrade(n), 10);
+            Assert.AreEqual(10, _gradeCalculator.ToGrade(n));
         }
 
         [Test]
         [TestCase(98)]
         public void GradeIsTwelfth(int n)
         {
-            Assert.AreEqual(_gradeCalculator.ToGrade(n), 12);
+            Assert.AreEqual(12, _gradeCalculator.ToGrade(n));
         }
     }
 }
